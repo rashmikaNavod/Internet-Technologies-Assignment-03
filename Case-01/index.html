@@ -3,8 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <title>Case-01</title>
+    <style>
+
+      *{
+        margin: 0;
+      }
+
+      body>section{
+          width: 50vw;
+          height: 50vh;
+          position: absolute;
+      }
+      body>section:first-child{
+          background: red;
+      }
+      body>section:nth-child(2){
+          background: green;
+          right: 0;
+      }
+      body>section:nth-child(3){
+          background: deeppink;
+          right: 0;
+          bottom: 0;
+      }
+      body>section:nth-child(4){
+          background: orange;
+          left: 0;
+          bottom: 0;
+      }
+
+      #center-div{
+          width: 12vw;
+          height: 12vw;
+          background: white;
+          position: absolute;
+          right: 0;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+      }
+      #center-div>div{
+          width: 8vw;
+          height: 8vw;
+          border-radius: 50%;
+          background: red;
+          position: absolute;
+          right: 0;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+
+      }
+
+      .rec-center{
+          width: 12vw;
+          height: 12vw;
+          background: white;
+          border-radius: 50%;
+          position: absolute;
+          right: 0;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+      }
+      .rec-center>div{
+          width: 5vw;
+          height: 5vw;
+          background: red;
+          position: absolute;
+          right: 0;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+      }
+
+
+    </style>
 </head>
 <body>
+    <section>
+        <div class="rec-center">
+            <div></div>
+        </div>
+    </section>
+    <section>
+        <div class="rec-center">
+            <div></div>
+        </div>
+    </section>
+    <section>
+        <div class="rec-center">
+            <div></div>
+        </div>
+    </section>
+    <section>
+        <div class="rec-center">
+            <div></div>
+        </div>
+    </section>
+
+
+
+    <div id="center-div">
+        <div></div>
+    </div>
 
 </body>
 </html>
