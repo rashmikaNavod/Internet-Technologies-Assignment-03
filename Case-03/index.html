@@ -3,8 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <title>Case-03</title>
+    <style>
+
+        body>section{
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        body>section:first-child{
+            width: 200px;
+            height: 200px;
+            border: 20px solid red;
+        }
+
+        body>section:nth-child(2){
+            width: 240px;
+            height: 240px;
+            border: 20px solid grey;
+        }
+
+        body>div{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background: purple;
+            text-align: center;
+            color: white;
+            font-size: 18px;
+            position: static;
+        }
+
+    </style>
 </head>
 <body>
+
+    <section></section>
+    <section></section>
+    <div>Hello</div>
+
 
 </body>
 </html>
